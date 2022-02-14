@@ -13,7 +13,7 @@ constructor(props) {
 render() {
     return(
         <div className='QuizQuestion'>
-            {quizData.instruction_text}
+            {quizData.quiz_questions[0].instruction_text}
         </div>
         );
     }
