@@ -19,7 +19,7 @@ class Quiz extends Component {
 
     handleResetClick() {
         this.setState((state) => {
-            return { quiz_question: 1 };
+            return { quiz_position: 1 };
         })
     }
 
